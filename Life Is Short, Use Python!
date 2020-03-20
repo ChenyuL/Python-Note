@@ -1,8 +1,9 @@
 # Recursion practice 
 # Solution 1 
+```Python
     def reverseString(self, s):
         s.reverse()
-        
+ ```       
 #Soultion 2
     def reverseString(self, s):
         def helper(left, right):
